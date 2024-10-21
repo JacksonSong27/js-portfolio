@@ -36,28 +36,38 @@
     <!-- ./Preloader -->
     
     <!-- header -->
-    <header class="navbar-fixed-top">
+    <header class="navbar-fixed-top" style="position: absolute; top: 0; right: 0; width: 100%; display: flex; justify-content: flex-end; align-items: center; padding-right: 20px; height: 80px;">
         <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">experience</a></li>
-                <li><a href="#projects">projects</a></li>
-                <li><a href="#contact">contact</a></li>
+            <ul style="display: flex; gap: 30px; list-style: none; font-size: 28px;">
+                <li><a href="#about" style="color: white; text-decoration: none;">About</a></li>
+                <li><a href="#experience" style="color: white; text-decoration: none;">Experience</a></li>
+                <li><a href="#projects" style="color: white; text-decoration: none;">Projects</a></li>
+                <li><a href="#contact" style="color: white; text-decoration: none;">Contact</a></li>
             </ul>
         </nav>
     </header>
+    
+    
     <!-- ./header -->
     
     <!-- home -->
-    <div class="section" id="home" data-stellar-background-ratio="0.5">
-        <div class="container">
-            <div class="disply-table">
-                <div class="table-cell" data-aos="fade-up" data-aos-delay="0">
-                    <h4>Wenxuan (Jackson) Song</h4>
-                    <h1>Software &<br /> Data Engineer</h1> </div>
-            </div>
+    <!-- home -->
+<!-- home -->
+<div class="section" id="home" data-stellar-background-ratio="0.5">
+    <div class="container" style="position: relative; height: 100vh;">
+        <div class="table-cell" data-aos="fade-up" data-aos-delay="0" style="position: absolute; right: -140px; top: 50%; transform: translateY(-50%); padding-right: 80px; text-align: right;">
+            <br><br><br><br><br><br>
+            <h1 style = "color: rgb(61, 61, 61);">Research &<br /> Software Engineer</h1>
+            <br>
+            <h3 style="font-size: 36px; margin-top: 10px; padding-right: 0px; color: rgb(255, 255, 255);">Wenxuan (Jackson) Song</h3>
         </div>
     </div>
+</div>
+
+
+
+    <!-- ./home -->
+    
     <!-- ./home -->
     
     <!-- about -->
@@ -67,15 +77,15 @@
                 <h4>01</h4>
                 <h1 class="size-50">Know <br /> About me</h1>
                 <div class="h-50"></div>
-                <p>Hey there! I'm delving deep into Information Science and Data Science, mastering software development, data analysis, and a variety of programming languages.</p>
-                <p>When I'm not coding, you'll find me hiking, running, or catching waves while surfing. I'm passionate about community service and love making a positive impact.</p>
-                <p>Particularly, I'm drawn to exploring ways to design technology that truly connects with people. Let's collaborate on some innovative tech solutions that make a difference!</p>
-                <div class="h-50"></div> <img src="img/Signature.svg" width="230" alt="" />
+                <p>I'm currently pursuing a Bachelor's degree in Information Science and Data Science at UIUC, with plans to complete the program within three years (2023-2026). My studies focus on mastering software development, data analysis, and a wide range of programming languages, equipping me with the technical skills necessary to tackle complex problems in the tech world.</p>
+                <p>Beyond academics, I’m passionate about outdoor activities like hiking, running, and surfing, which help me stay active and energized. I also dedicate time to community service, where I find purpose in making a positive impact through meaningful projects.</p>
+                <p>In particular, I’m drawn to designing technology that fosters real connections and enhances user experiences. My goal is to collaborate on innovative tech solutions that not only solve problems but also make a difference in people’s lives. Let's create something impactful together!</p>                            
+                <div class="h-50"></div> <img src="img/signature.png" width="230" alt="" />
                 <div class="h-50"></div>
             </div>
             <div class="col-md-6 about-img-div">
                 <div class="about-border" data-aos="fade-up" data-aos-delay=".5"></div>
-                <img src="img/about-img.jpg" width="400" class="img-responsive" alt="" align="right" data-aos="fade-right" data-aos-delay="0" />
+                <img src="img/xc.jpeg" width="400" class="img-responsive" alt="" align="right" data-aos="fade-right" data-aos-delay="0" />
             </div>
         </div>
     </div>
@@ -91,33 +101,88 @@
             </div>
             <div class="col-md-12">
                 <ul class="timeline">
+
                     <li class="timeline-event" data-aos="fade-up">
                         <label class="timeline-event-icon"></label>
                         <div class="timeline-event-copy">
-                            <p class="timeline-event-thumbnail">April 2016 - Present</p>
-                            <h3>Geil,Danke! GmbH</h3>
-                            <h4>eines Web-Studios</h4>
-                            <p><strong>Projektmanagement mit Scrum</strong>
-                                <br>Ständiges Verbessern des agilen Entwicklungsprozesses beispielsweise durch Grunt, Yeoman, GIT, JIRA und BrowserStack.</p>
+                          <p class="timeline-event-thumbnail">October 2023 - Present</p>
+                          <h3>Jump Simulation Center</h3>
+                          <h4>Carle Illinois College of Medicine</h4>
+                          <p><strong>AI Software Developer Intern</strong></p>
+                          <p><strong>Project:</strong> Spatial Computing for Medical Simulation Training in XR Devices</p>
+                          <p>I focused on setting up the AI chatbot that assists in medical training simulations. Using <strong>Node.js</strong> and <strong>Express.js</strong>, I developed the backend and set up the API to support real-time interaction between the chatbot and trainees. The chatbot, powered by <strong>Natural Language Processing (NLP)</strong> and using the <strong>OpenAI GPT-4 model</strong>, provides guidance by answering medical questions during simulations. I worked on fine-tuning the chatbot's responses by connecting it to a medical database, ensuring that the responses were accurate and relevant to the medical procedures being simulated.</p>
                         </div>
                     </li>
-                    <li class="timeline-event" data-aos="fade-up" data-aos-delay=".2">
+
+                    <li class="timeline-event" data-aos="fade-up">
                         <label class="timeline-event-icon"></label>
                         <div class="timeline-event-copy">
-                            <p class="timeline-event-thumbnail">November 2014 - Mars 2016</p>
-                            <h3>Freelancer</h3>
-                            <h4>Designer und Autor</h4>
-                            <p>Konzeption, Design und Produktion von Digitalen Magazinen mit InDesign, der Adobe Digital Publishing Suite und HTML5. Co-Autorin der Fachbücher "Digitales Publizieren für Tablets" und "Adobe Digital Publishing Suite" erschienen im dpunkt.verlag.</p>
+                            <p class="timeline-event-thumbnail">August 2024 - Present</p>
+                            <h3>CS 124 Course Assistant Tutor</h3>
+                            <h4>University of Illinois Urbana-Champaign</h4>
+                            <p>I help students navigate the fundamentals of computer science using <strong>Java</strong> and <strong>Kotlin</strong>. My focus is on guiding them through essential concepts such as <strong>loops</strong>, <strong>data structures</strong>, and <strong>algorithms</strong>, ensuring they can confidently solve problems and write efficient code. I provide hands-on support during labs and assignments, assisting with debugging and optimization. Additionally, I offer constructive feedback on projects and help prepare students for assessments, fostering a solid foundation in computer science and encouraging their passion for programming.</p>
                         </div>
                     </li>
-                    <li class="timeline-event" data-aos="fade-up" data-aos-delay=".4">
+                                    
+
+                    <li class="timeline-event" data-aos="fade-up">
                         <label class="timeline-event-icon"></label>
                         <div class="timeline-event-copy">
-                            <p class="timeline-event-thumbnail">April 2014</p>
-                            <h3>konplan gmbh</h3>
-                            <h4>IT-Consultant</h4>
-                            <p><strong>Systemarchitektur, Consulting</strong>
-                                <br>Konzeption und Modellierung von Systemen und APIs für Digital Publishing und Entitlement nach SOA</p>
+                          <p class="timeline-event-thumbnail">May 2024 - September 2024</p>
+                          <h3>Social Computing System Lab</h3>
+                          <h4>University of Illinois Urbana-Champaign</h4>
+                          <p><strong>XR Software Developer - Stage 1</strong></p>
+                          <p><strong>Focus:</strong> Unity Development for HoloLens 2</p>
+                          <p>I contributed to the development of 3D environments in <strong>Unity</strong> for the <strong>HoloLens 2</strong>, designed to enhance studies conducted with PhD students. My work focused on creating interactive elements that improve collaboration and spatial awareness in <strong>Augmented Reality (AR)</strong> settings. I implemented these interactive elements using <strong>C# coding</strong> to ensure the system performed smoothly in real-time, providing an immersive experience for the users during the studies. I also collaborated with researchers to optimize performance, ensuring that the applications could handle complex interactions without latency.</p>
+                          <br>
+                          <p><strong>Research Assistant - Stage 2</strong></p>
+                          <p><strong>Focus:</strong> LLM & XR Research and CHI Research Paper Development</p>
+                          <p>I contributed to research exploring how <strong>Large Language Models (LLMs)</strong> can enhance interactions in <strong>Extended Reality (XR)</strong> environments. My role was to investigate how LLMs could make virtual environments more responsive and adaptive to users. This research led to co-authoring a paper for the <strong>CHI 2025</strong> conference, where we presented our findings on how LLMs could improve engagement and learning in XR settings.</p>                       
+                        </div>
+                      </li>
+
+                      <li class="timeline-event" data-aos="fade-up">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">June 2024 - August 2024</p>
+                            <h3>Zhejiang Lvkang Medical Care Group Co., Ltd.</h3>
+                            <p><strong>Software Developer Intern</strong></p>
+                            <p><strong>Project:</strong> Elderly Care Mini Program</p>
+                            <p>I spearheaded the development of the Elderly Care Mini Program, designed to revolutionize care management within senior care facilities. We used <strong>JavaScript</strong>, <strong>WeChat Mini Program</strong>, and <strong>Node.js</strong> to implement key features that supported real-time updates and data synchronization for caregivers. I also helped integrate <strong>MongoDB</strong> for efficient data handling. Together, we optimized the platform's performance, ensuring it was scalable, user-friendly, and capable of enhancing care management within senior facilities. This project significantly improved the operational efficiency of care teams and ensured better service delivery to elderly residents.</p>
+                        </li>
+                    
+
+                    <li class="timeline-event" data-aos="fade-up">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                          <p class="timeline-event-thumbnail">January 2024 - May 2024</p>
+                          <h3>Social Computing System Lab</h3>
+                          <h4>University of Illinois Urbana-Champaign</h4>
+                          <p><strong>Research Assistant (Machine Learning Developer)</strong></p>
+                          <p><strong>Focus:</strong> Object Detection with YOLO</p>
+                          <p>I focused on implementing and fine-tuning <strong>YOLO</strong> for object detection in dynamic environments. My work involved developing custom YOLO models, optimized for specific datasets, to efficiently identify and classify objects. I was responsible for building real-time detection pipelines that enabled automated object classification and decision-making in various systems. This required extensive use of <strong>Python</strong> and <strong>PyTorch</strong> for deep learning, model training, and optimization. I collaborated with a team to integrate the YOLO models into larger, real-time systems, ensuring seamless processing. Throughout the project, I continuously refined the models by analyzing performance metrics, improving detection accuracy with each iteration.</p>
+                        </div>
+                    </li>
+                      
+                    <li class="timeline-event" data-aos="fade-up">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">November 2023 - January 2024</p>
+                            <h3>MOONBOOW Studio</h3>
+                            <p><strong>Research Assistant (Software Developer)</strong></p>
+                            <p><strong>Project:</strong> Mixed Reality Experience on Meta Quest 3 with GPT-3.5 Turbo Integration</p>
+                            <p>I collaborated with PhD students to develop a mixed reality (MR) experience on Meta Quest 3, integrating <strong>GPT-3.5 Turbo</strong> for immersive, conversational user interactions. I helped design the backend with <strong>Node.js</strong> and <strong>Express.js</strong> for real-time communication and natural language processing. I also contributed to creating interactive 3D elements in <strong>Unity</strong> and managed a <strong>MongoDB</strong> database to optimize performance. This work led to a co-authored paper submitted to the <strong>CSCW 2024</strong> conference.</p>
+                        </div>
+                    </li>                    
+
+                    <li class="timeline-event" data-aos="fade-up">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                          <p class="timeline-event-thumbnail">August 2023 - October 2023</p>
+                          <h3>Illini Fuel</h3>
+                          <p><strong>Nutrition Analyst Intern</strong></p>
+                          <p><strong>Focus:</strong> Personalized Nutritional Assessments for UIUC NCAA Athletes</p>
+                          <p>I provided tailored nutritional assessments to help NCAA athletes at UIUC optimize their dietary intake and performance. I assessed their nutritional needs based on performance metrics and developed individualized meal and hydration plans. Using <strong>Python</strong> and <strong>Pandas</strong>, I performed data analysis to fine-tune nutrition strategies for both performance and recovery. Additionally, I automated feedback collection from athletes to continually refine the nutrition plans, ensuring they met the evolving needs of the athletes. I worked closely with the coaching staff to ensure that dietary strategies were aligned with training schedules, helping to maximize athletic performance. I also used tools like <strong>Google Sheets</strong> and <strong>Slack</strong> for effective team collaboration and communication.</p>
                         </div>
                     </li>
                 </ul>
@@ -131,7 +196,7 @@
         <div class="container">
             <div class="col-md-12">
                 <h4>03</h4>
-                <h1 class="size-50">My <br /> Projects</h1> 
+                <h1 class="size-50">My <br /> Works</h1> 
             </div>
             <!-- main container -->
             <div class="main-container portfolio-inner clearfix">
@@ -143,11 +208,11 @@
                             <nav class="categories">
                                 <ul class="portfolio_filter">
                                     <li><a href="" class="active" data-filter="*">All</a></li>
-                                    <li><a href="" data-filter=".photography">Photography</a></li>
-                                    <li><a href="" data-filter=".logo">Logo</a></li>
-                                    <li><a href="" data-filter=".graphics">Graphics</a></li>
-                                    <li><a href="" data-filter=".ads">Advertising</a></li>
-                                    <li><a href="" data-filter=".fashion">Fashion</a></li>
+                                    <li><a href="" data-filter=".photography">Internship</a></li>
+                                    <li><a href="" data-filter=".logo">Research</a></li>
+                                    <li><a href="" data-filter=".graphics">Project</a></li>
+                                    <!-- <li><a href="" data-filter=".ads">Advertising</a></li>
+                                    <li><a href="" data-filter=".fashion">Fashion</a></li> -->
                                 </ul>
                             </nav>
                         </div>
@@ -285,11 +350,11 @@
             <div class="col-md-4" data-aos="fade-up">
 
                 <h3>Phone Number</h3>
-                <p>+20 5555 569 42</p>
+                <p>(626) 365-6603</p>
                 <h3> Mobile Numberr</h3>
                 <p>+20 5555 569 42</p>
                 <h3>Email</h3>
-                <p>mail@info.me </p>
+                <p>js129@illinois.edu</p>
 
                 <h3>Social Network</h3>
 
@@ -346,6 +411,16 @@
             </div>
         </div>
     </div>
+
+
+
+
+
+
+
+
+
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <!--  plugins  -->
