@@ -103,9 +103,18 @@ $(document).ready(function () {
 
     });
 
-    //animatedModal
-    $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
-
+    $(document).ready(function() {
+        $("#demo01").animatedModal();
+        $("#demo02").animatedModal({modalTarget: 'animatedModal2'});
+        $("#demo03").animatedModal({modalTarget: 'animatedModal3'});
+        $("#demo04").animatedModal({modalTarget: 'animatedModal4'});
+        $("#demo05").animatedModal({modalTarget: 'animatedModal5'});
+        $("#demo06").animatedModal({modalTarget: 'animatedModal6'});
+        $("#demo07").animatedModal({modalTarget: 'animatedModal7'});
+        $("#demo08").animatedModal({modalTarget: 'animatedModal8'});
+        $("#demo09").animatedModal({modalTarget: 'animatedModal9'});
+    });
+    
     // Contact Form 	
 
     // validate contact form
